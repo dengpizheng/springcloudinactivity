@@ -1,5 +1,7 @@
 spring:
   datasource:
+    name: druidDataSource
+    type: com.alibaba.druid.pool.DruidDataSource
     druid:
       url: jdbc:mysql://192.168.1.108:3306/blog_db?useUnicode=true&characterEncoding=UTF-8&useSSL=false
       username: root
